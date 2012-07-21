@@ -1,0 +1,12 @@
+Nesting Form
+
+This is similar to the nested_form plugin that Ryan Bates made as part of his Railscasts
+See: https://github.com/ryanb/nested_form
+
+This tries to work round some of the limitations with nested_form which appears 
+to be unmaintained as of 2012. These include:
+
+* Events to fire correctly (fired from fields rather than form object)
+* Obey the correct wrapper for simple_form
+* Allow use of table rows
+* Not have <div class="fields"> as a hard coded wrapper
